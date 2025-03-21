@@ -1,0 +1,18 @@
+# Ignore folder node_modules (agar tidak ter-push ke GitHub)
+node_modules/
+
+# Ignore file konfigurasi lingkungan (jangan share file ini!)
+.env
+
+# Ignore logs, cache, dan build output
+logs/
+*.log
+dist/
+build/
+coverage/
+
+# Ignore file sistem dan editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
